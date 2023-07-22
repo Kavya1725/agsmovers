@@ -6,3 +6,14 @@ actvlink.forEach(a => {
         this.classList.add('active');
     });
 });
+//mega menu onclick start//
+function showhide(){
+    let click=document.getElementById("mega-menu");
+    if( click.style.display == "none"){
+       click.style.display = "block";
+    }
+    else{
+        click.style.display = 'none';
+    }
+}
+//mega menu onclick end//

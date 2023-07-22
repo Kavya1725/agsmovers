@@ -71,31 +71,72 @@ header .tophead .rightgroup ul li select{
     font-size: 13px;
     background: #34313a;
 }
+.dropdown .btn{
+    height: 25px;
+    
+}
+.abc{
+    text-align: center;
+} 
+.dropdown.dropdownmenu .dropdown-item:hover{
+    background: #131212;
+
+}
+
 /* tophead section end */
 
 /* Navbar Section Start */
 nav a{
     font-size: 14px !important;
     font-weight: 600 !important;
+    z-index: 10px;
 }
-.dropdown .dropdown-menu{
-    background: #34313a;
-    
-}
-.dropdown .dropdown-menu .dropdown-item{
-
-    color: #fff;
-
-}
-.dropdown .dropdown-menu .dropdown-item:hover {
+.dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0px;  
-    background-color: #131212; 
+     
+}
+.nav-item:hover .mega-menu{
+    display: block;
+}
+ .mega-menu{
+     display: none;
+     /* display: block;  */
+    background: #34313a;
+    position: absolute;
+    /* margin-top: 29px; */
+    left: 0;
+    right: 0;
+    z-index: 9;
+  
+}
+ .mega-menu .choose-us{
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+
+
+.mega-menu .choose-us .moving:hover{
+
+transform: scale(1.05);
+transition: 0.3s all;
+}
+ .submenu li:hover{
+    transform: scale(1.05);
+transition: 0.3s all;
+
+}
+.mymenu:hover{
+    transform: scale(1.05);
+    transition: 0.3s all;   
+
 }
 /* Navbar Section End */
 /* Slider Section Start */
 .carousel-inner .carousel-item{
     height: 500px;
+    position: relative;
+  
 }
 @keyframes zoomin{
     from{
@@ -119,6 +160,7 @@ nav a{
 .carousel-indicators {
     bottom: 3.5rem;
 }
+
 /* Slider Section End */
 /* International Removal Section Start */
 .interbox{
@@ -200,6 +242,9 @@ element.style{
 }
  
 /* network end*/
+/* news page start */
+
+/* news page end */
 /* footer start */
 footer{
     background:linear-gradient(to right, #34313a, #424047, #34313a); 
@@ -266,7 +311,28 @@ footer ul li a1:hover {
     color: #fff;
 }
 /* scroll end */
-
+.countris{
+    
+    
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.countris a{
+    color: #34313a;
+}
+.countris a:hover{
+    color: #b00000;
+}
+h6{
+    font-size: 20px;
+    color:#b00000
+}
+h6:hover{
+    color:#34313a
+}
+.container1{
+    margin-bottom: 100px;
+}
 
 
 
